@@ -4,7 +4,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical"
-    android:background="@color/main_background">
+    android:background="@color/black">
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -20,7 +20,7 @@
             android:layout_weight="30"
             android:gravity="bottom"
             android:text="@string/foreign_currency"
-            android:textColor="@color/foreign_currency_color"/>
+            android:textColor="@color/turquoise"/>
 
         <Spinner
             android:layout_width="fill_parent"
@@ -38,7 +38,7 @@
             android:layout_marginRight="10dp"
             android:gravity="bottom"
             android:text="@string/enter_amount"
-            android:textColor="@color/enter_amount_color"
+            android:textColor="@color/grey_med"
             android:textSize="12sp"/>
 
     </LinearLayout>
@@ -49,7 +49,7 @@
         android:layout_marginRight="10dp"
         android:layout_marginLeft="10dp"
         android:layout_weight="20"
-        android:background="@color/edit_text_backgnd_color">
+        android:background="@color/grey_dark">
 
         <EditText
             android:id="@+id/edt_amount"
@@ -58,11 +58,11 @@
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:background="@color/edit_text_color"
+            android:background="@color/grey_very_dark"
             android:digits="0123456789."
             android:gravity="center_vertical"
             android:inputType="numberDecimal"
-            android:textColor="@color/edit_text_fore_color"
+            android:textColor="@color/white"
             android:textSize="30sp">
 
             <requestFocus/>
@@ -79,7 +79,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:text="@string/btn_calc"
-        android:textColor="@color/btn_calc_color"/>
+        android:textColor="@color/grey_light"/>
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -95,7 +95,7 @@
             android:layout_weight="30"
             android:gravity="bottom"
             android:text="@string/home_currency"
-            android:textColor="@color/home_currency_color" />
+            android:textColor="@color/turquoise" />
 
         <Spinner
             android:id="@+id/spn_home"
@@ -114,7 +114,7 @@
             android:layout_marginLeft="10dp"
             android:gravity="bottom"
             android:text="@string/calc_result"
-            android:textColor="@color/calc_result_color"
+            android:textColor="@color/grey_med"
             android:textSize="12sp"/>
 
     </LinearLayout>
@@ -125,7 +125,7 @@
         android:layout_weight="20"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:background="@color/calc_result_bkg_color">
+        android:background="@color/grey_dark">
 
         <TextView
             android:id="@+id/txt_converted"
@@ -134,7 +134,7 @@
             android:layout_gravity="center_vertical"
             android:layout_marginRight="5dp"
             android:layout_marginLeft="5dp"
-            android:background="@color/txt_converted_color"
+            android:background="@color/grey_med_dark"
             android:gravity="center_vertical"
             android:textSize="30sp"
             android:typeface="normal"/>
