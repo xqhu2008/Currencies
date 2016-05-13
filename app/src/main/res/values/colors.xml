@@ -3,4 +3,15 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="main_background">#000</color>
+    <color name="foreign_currency_color">#ff22e9ff</color>
+    <color name="enter_amount_color">#666</color>
+    <color name="edit_text_color">#111</color>
+    <color name="edit_text_backgnd_color">#222</color>
+    <color name="edit_text_fore_color">#FFF</color>
+    <color name="btn_calc_color">#AAA</color>
+    <color name="home_currency_color">#ff22e9ff</color>
+    <color name="calc_result_color">#666</color>
+    <color name="calc_result_bkg_color">#222</color>
+    <color name="txt_converted_color">#333</color>
 </resources>

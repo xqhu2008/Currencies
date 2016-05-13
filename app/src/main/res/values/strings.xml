@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Currencies</string>
+    <string name="foreign_currency">Foreign Currency</string>
+    <string name="enter_amount">Enter foreign currency amount here:</string>
+    <string name="btn_calc">Calculate</string>
+    <string name="home_currency">Home Currency</string>
+    <string name="calc_result">Calculated result in home currency:</string>
 </resources>
