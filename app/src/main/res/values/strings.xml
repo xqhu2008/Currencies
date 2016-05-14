@@ -5,4 +5,5 @@
     <string name="btn_calc">Calculate</string>
     <string name="home_currency">Home Currency</string>
     <string name="calc_result">Calculated result in home currency:</string>
+    <string name="title_activity_splash">SplashActivity</string>
 </resources>

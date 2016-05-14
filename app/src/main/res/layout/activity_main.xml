@@ -13,14 +13,10 @@
         android:orientation="vertical" >
 
         <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="0dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
             android:layout_weight="30"
-            android:gravity="bottom"
             android:text="@string/foreign_currency"
-            android:textColor="@color/turquoise"/>
+            android:textColor="@color/turquoise"
+            style="@style/label"/>
 
         <Spinner
             android:layout_width="fill_parent"
@@ -31,15 +27,11 @@
             android:gravity="top" />
 
         <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="0dp"
             android:layout_weight="15"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:gravity="bottom"
             android:text="@string/enter_amount"
             android:textColor="@color/grey_med"
-            android:textSize="12sp"/>
+            android:textSize="12sp"
+            style="@style/label"/>
 
     </LinearLayout>
 
@@ -88,14 +80,10 @@
         android:orientation="vertical">
 
         <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="0dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
             android:layout_weight="30"
-            android:gravity="bottom"
             android:text="@string/home_currency"
-            android:textColor="@color/turquoise" />
+            android:textColor="@color/turquoise"
+            style="@style/label"/>
 
         <Spinner
             android:id="@+id/spn_home"
@@ -107,15 +95,11 @@
             android:gravity="top" />
 
         <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="0dp"
             android:layout_weight="15"
-            android:layout_marginRight="10dp"
-            android:layout_marginLeft="10dp"
-            android:gravity="bottom"
             android:text="@string/calc_result"
             android:textColor="@color/grey_med"
-            android:textSize="12sp"/>
+            android:textSize="12sp"
+            style="@style/label"/>
 
     </LinearLayout>
 
