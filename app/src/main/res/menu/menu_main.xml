@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+    <item
+        android:id="@+id/menu_codes"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/search_active_codes" />
+
+    <item
+        android:id="@+id/menu_invert"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        android:title="@string/invert_codes" />
+
+    <item
+        android:id="@+id/menu_exit"
+        android:orderInCategory="300"
+        app:showAsAction="never"
+        android:title="@string/exit_app"/>
+
+</menu>

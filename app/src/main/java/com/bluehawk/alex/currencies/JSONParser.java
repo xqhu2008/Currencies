@@ -23,11 +23,11 @@ public class JSONParser {
 
     public JSONParser() {}
 
-    public JSONObject getJSONFromUrl(String url) {
+    public JSONObject getJSONFromUrl(String uri) {
         // attempt to get response from server
         try {
-            URL urlconn = new URL(url);
-            URLConnection uconn = urlconn.openConnection();
+            URL url = new URL(uri);
+            URLConnection uconn = url.openConnection();
             sInputStream = uconn.getInputStream();
             BufferedReader reader = new BufferedReader(new InputStreamReader(sInputStream, "iso-8859-1"), 8);
             StringBuilder stringBuilder = new StringBuilder();

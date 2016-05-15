@@ -6,4 +6,7 @@
     <string name="home_currency">Home Currency</string>
     <string name="calc_result">Calculated result in home currency:</string>
     <string name="title_activity_splash">SplashActivity</string>
+    <string name="search_active_codes">search active codes</string>
+    <string name="invert_codes">invert codes</string>
+    <string name="exit_app">exit</string>
 </resources>
